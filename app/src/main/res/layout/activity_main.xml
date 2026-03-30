@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Spark App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time of day (e.g. Morning)"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textCapWords"/>
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Suggestion"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your suggestion will appear here"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:padding="12dp"/>
+
+</LinearLayout>
